@@ -21,7 +21,7 @@ public class Ciudad {
 	private Long id;
 
 	@Column(nullable = false, length = 50)
-	private String nom_Ciudad;
+	private String nombre;
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(nullable = false)
